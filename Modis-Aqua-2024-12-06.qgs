@@ -1,0 +1,943 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.16.3-Hannover" saveUser="karim" saveDateTime="2021-11-30T15:34:08" saveUserFull="karim">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer expanded="1" source="IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DcmV0dXJuIFsKICAoKChCMDgqQjAyKS8oQjEwKkIwNSkpKigoQjA5KkIwMykvKEIxOStCMDQpKSooKEIxMCpCMDIvKEIyMCtCMDUpKSooQjEwKkIwMy8oQjE5K0IwNCkpICoxLjIpICogQjEwLyhCMjArQjA5KSAqIDEuOSArIE1hdGgubWF4KDAsICgoQjAyKkIwMypCMDEvKEIyMCtCMjEvNS4wKSkqKEIxOC9CMDQpKihCMTAvQjAxKSooQjA5L0IwMikqKEIwOC9CMDMpKSAtIDMuNSkpICAsCiAgKEIwMSpCMTIqKEIwMi8yLjAvQjIwLzMuMCkqKEIwNytCMDYqQjAyKSAqIDAuMSArIE1hdGgubWF4KDAsIEIxMCAtIDAuNSkqKEIwMipCMDUqQjE5ICogMS4yKSAqIChCMDkqQjEyKS9CMDcgKiAwLjkgKyBNYXRoLm1heCgwLCBCMDkgLSAyLjUpICogQjIwKkIwOS8oQjEyKkIwMSkgKiAwLjQgKiAoQjA0KkIxMSkgKiAoQjAxKkIwNSkgKiBCMDEqQjEyKihCMDIvMi4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikpLAogICgoKEIyMCpCMDMpKihCMDMvQjE3KSooQjE2L0IwMykqKEIwMy9CMTUpKihCMTQvQjAzKSooQjEzL0IwMy8yLjApKihCMTIqQjAzL0IwMSkqKEIwMy9CMTkpKihCMDMqQjA1L0IxNykgKyBNYXRoLm1heCgwLCAoQjAxKkIwMipCMDMvKEIyMCtCMjEvNS4wKSooQjA0L0IxOCkpIC0gMC41KSkqKCgoQjIwKkIxMCozLjAvQjA1KSooQjIwKkIxMS9CMDEpKSooKEIyMCpCMDQqQjA5KS8oQjIwKkIwMipCMDgpKSkqKEIwMi9CMDUpKSAgLAogIAogIAogIApdOw%3D%3D%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS" legend_exp="" patch_size="-1,-1" name="BlueV2o" checked="Qt::Checked" id="Blue_V2o__fc6496dd_f49d_4745_ade8_e7fdbb006464" providerKey="wms" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" source="IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DcmV0dXJuIFsKICBCMjAqQjA5LyhCMTIrMC41KSAgKyBNYXRoLm1heCgwLCBCMjAgLSAwLjUpKigoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogNS4wKSkgLAogIEIwOSpCMTIgKiAwLjUgKyBNYXRoLm1heCgwLCBCMDkgLSAzLjUpKigoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMy4wKSkgLAogICgoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMy4wKSkgLAogIApdOw%3D%3D%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS" legend_exp="" patch_size="-1,-1" name="BlueGlowG" checked="Qt::Checked" id="Blue_GlowG_78f3b1fe_d7e0_49b2_9dbf_54c398c431bd" providerKey="wms" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" source="IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DcmV0dXJuIFsKICAoQjAxKkIwMipCMDMqKEIwMi8zLjAvQjIwLzMuMCkqKEIwNytCMDYqQjAyKSooQjEwLUIwMS80LjApKkIwNSooKCgoQjAyKkIxOSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNS83LjApLyhCMTcqQjAyKkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1KjcuMCkqKEIwMSpCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE2KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSkqKEIwMypCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvMS4wKSooQjA0KkIxOSpCMDUqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE0KkIwMSpCMDUqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMy83LjApKihCMDUqQjE5KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNSpCMDEqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMy8xLjApKigoQjA0KkIyMC80LjUpKihCMDMqQjIwLzQuNSkqKEIwMSpCMjAvNC41KSooQjAyKkIyMC80LjUpKS8xLjAqKEIwMypCMDUvMS4wKSooQjA0KkIxNC8xLjApKSooKEIyMCsoQjAxKkIwMipCMDMvMy4wKS80LjApKihCMDQtKEIwMy8zLjApLzUuMCkvKEIwMSpCMDIvMS4wKSkqKCgoQjA3KkIwNi81LjApKihCMTYqQjEwLzUuMCkqKEIwMypCMDQvNS4wKSooQjA1KkIwOC8xLjApKS8oQjAxKkIyMC8xLjApKyhCMDQqQjE1LzEuMCkrKEIxOCpCMTAvMS4wKSkpKygoQjAxLzEuMCktKEIyMC8xLjApKSsoKEIwMi8xLjApLShCMTkvMS4wKSkrKChCMDMvMS4wKS0oQjE4LzEuMCkpKygoQjA0LzEuMCktKEIxNy8xLjApKSkgKiAxLjApICwKICAoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMS4wICkgLAogIChCMjAqQjAxKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogOC4wKSAsCiAgCl07%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS" legend_exp="" patch_size="-1,-1" name="BlueGlow" checked="Qt::Checked" id="Blue_Glow_948d1aa3_fb41_485b_9d5e_d4fd0e631920" providerKey="wms" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" source="IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DcmV0dXJuIFsKICAoQjIwKihCMDkvMi4wKS8oQjEyKzAuNSkgKiAyLjEgKyBNYXRoLm1heCgwLCBCMjAgLSAwLjUpKihCMjAqQjA5LyhCMTIrMC41KSAvMS4xICsgTWF0aC5tYXgoMCwgQjA1KkIwMSpCMDMgLSAzLjUpKigoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMy4wKSkpKSAsCiAgKEIwOSpCMTIgKiAwLjYgKyBNYXRoLm1heCgwLCBCMDEgLSAzLjUpKigoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMy4wKSkpICwKICAoQjAzKkIwNC9CMDEpLyhCMDMqQjAyL0IwNCkqKChCMTAvMi4wLUIxNC8yLjApKkIwMysoQjA5LzIuMC1CMTkvMi4wKSpCMDMrKChCMDgtQjE4KS8yLjApKkIwMysoQjA3LzIuMC1CMTYvMi4wKSpCMDMrKEIwNi8yLjAtQjE1LzIuMCkrKEIwNS8yLjAtQjE0LzIuMCkrKEIwNC8yLjAtQjEyLzIuMCkpICogMi4wICsgTWF0aC5tYXgoMCwgQjAxIC0gMy41KSooQjAyKkIwMypCMDcqQjE2KkIwMSooQjEwLUIyMCkqKEIwMi1CMTcqMy4wKSAqIDIuMCArIE1hdGgubWF4KDAsIEIwMSAtIDEuNSkrQjAzKigoQjAyKkIwOSoxLjIpLSggQjA3KihCMjAvQjA1KSAqKEIwMypCMDQvMy4wKSAqQjA3LUIwMyooQjAxL0IyMCkgKiAwLjEgKyAoQjIxKkIwMSkgKihCMTkqQjAxKSkqKEIxMiooQjIwK0IwOStCMDEpICogMC41ICsgTWF0aC5tYXgoMCwgQjEyIC0gMy41KSAgKiAwLjEgKyBNYXRoLm1heCgwLCBCMjArQjAxK0IwMiAqIDAuNSkpKihCMDcqKEIxMC1CMjApICogMS44ICsgTWF0aC5tYXgoMCwgQjAxIC0gMS41KSooKEIxMiooQjAyLzMuMC9CMjAvMy4wKSooQjA3K0IwNipCMDIpKihCMTAtQjAxLzQuMCkqQjA1KigoKChCMDIqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNypCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUqNy4wKSooQjAxKkIxOSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNS83LjApLyhCMTYqQjAyKkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1KSooQjAzKkIxOSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNSpCMDEqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC8xLjApKihCMDQqQjE5KkIwNSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTQqQjAxKkIwNSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzLzcuMCkqKEIwNSpCMTkqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzLzEuMCkqKChCMDQqQjIwLzQuNSkqKEIwMypCMjAvNC41KSooQjAxKkIyMC80LjUpKihCMDIqQjIwLzQuNSkpLzEuMCooQjAzKkIwNS8xLjApKihCMDQqQjE0LzEuMCkpKigoQjIwKyhCMDEqQjAyKkIwMy8zLjApLzQuMCkqKEIwNC0oQjAzLzMuMCkvNS4wKS8oQjAxKkIwMi8xLjApKSooKChCMDcqQjA2LzUuMCkqKEIxNipCMTAvNS4wKSooQjAzKkIwNC81LjApKihCMDUqQjA4LzEuMCkpLyhCMDEqQjIwLzEuMCkrKEIwNCpCMTUvMS4wKSsoQjE4KkIxMC8xLjApKSkrKChCMDEvMS4wKS0oQjIwLzEuMCkpKygoQjAyLzEuMCktKEIxOS8xLjApKSsoKEIwMy8xLjApLShCMTgvMS4wKSkrKChCMDQvMS4wKS0oQjE3LzEuMCkpKSAqIDMuMCkpKSkpICwKICAKXTs%3D%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS" legend_exp="" patch_size="-1,-1" name="BlueGlowO" checked="Qt::Checked" id="Blue_GlowO_2315c6a5_a487_49bb_a097_783d26a1a76f" providerKey="wms" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" source="IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DIHJldHVybiBbCgooKChCMjAqQjEwKjMuMC9CMDUpKihCMjAqQjExL0IwMSkpKigoQjIwKkIwNCpCMDkpLyhCMjAqQjAyKkIwOCkpKSooQjAyL0IwNSkgLAooQjAyKkIwNSpCMTkgKiAxLjIpICogKEIwOSpCMTIpL0IwNyAqIDAuOSArIE1hdGgubWF4KDAsIEIwOSAtIDIuNSkgKiBCMjAqQjA5LyhCMTIqQjAxKSAqIDAuNCAqIChCMDQqQjExKSAqIChCMDEqQjA1KSAqIEIwMSpCMTIqKEIwMi8yLjAvQjIwLzMuMCkqKEIwNytCMDYqQjAyKSwKKChCMDgqQjAyKS8oQjEwKkIwNSkpKigoQjA5KkIwMykvKEIxOStCMDQpKSooKEIxMCpCMDIvKEIyMCtCMDUpKSooQjEwKkIwMy8oQjE5K0IwNCkpICoxLjIpICogQjEwLyhCMjArQjA5KSAqIDEuOSArIE1hdGgubWF4KDAsICgoQjAyKkIwMypCMDEvKEIyMCtCMjEvNS4wKSkqKEIxOC9CMDQpKihCMTAvQjAxKSooQjA5L0IwMikqKEIwOC9CMDMpKSAtIDMuNSkgLAoKXTs%3D%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS" legend_exp="" patch_size="-1,-1" name="BlueV2g" checked="Qt::Checked" id="Blue_V2g__7ceac97d_9837_4ee1_b175_05d44bbd7068" providerKey="wms" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" source="IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;allowTemporalUpdates=false&amp;contextualWMSLegend=0&amp;crs=EPSG:4326&amp;dpiMode=7&amp;enableTime=true&amp;featureCount=10&amp;format=image/jpeg&amp;layers=MODIS_Aqua_CorrectedReflectance_TrueColor&amp;styles&amp;temporalSource=provider&amp;timeDimensionExtent=2000-02-24/2024-12-20/P1D&amp;type=wms&amp;url=https://gibs-c.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?TIME%3D2024-12-06%26layer%3DMODIS_Aqua_CorrectedReflectance_TrueColor%26style%3Ddefault" legend_exp="" patch_size="-1,-1" name="MODISTerra" checked="Qt::Checked" id="_True_Color__MODIS__Terra_2_e11e9a97_efd5_49d0_afcb_2e702cc3bb82" providerKey="wms" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>Blue_V2g__7ceac97d_9837_4ee1_b175_05d44bbd7068</item>
+      <item>Blue_V2o__fc6496dd_f49d_4745_ade8_e7fdbb006464</item>
+      <item>Blue_Glow_948d1aa3_fb41_485b_9d5e_d4fd0e631920</item>
+      <item>Blue_GlowG_78f3b1fe_d7e0_49b2_9dbf_54c398c431bd</item>
+      <item>Blue_GlowO_2315c6a5_a487_49bb_a097_783d26a1a76f</item>
+      <item>_True_Color__MODIS__Terra_2_e11e9a97_efd5_49d0_afcb_2e702cc3bb82</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings minScale="0" unit="1" maxScale="0" type="1" tolerance="12" mode="2" self-snapping="0" scaleDependencyMode="0" enabled="0" intersection-snapping="0">
+    <individual-layer-settings/>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>125.48893035838210608</xmin>
+      <ymin>8.09460382942402035</ymin>
+      <xmax>128.6239292139276813</xmax>
+      <ymax>10.56771038454352052</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" name="BlueV2o" showFeatureCount="0" checked="Qt::Checked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" layerid="Blue_V2o__fc6496dd_f49d_4745_ade8_e7fdbb006464" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="BlueGlowG" showFeatureCount="0" checked="Qt::Checked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" layerid="Blue_GlowG_78f3b1fe_d7e0_49b2_9dbf_54c398c431bd" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="BlueGlow" showFeatureCount="0" checked="Qt::Checked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" layerid="Blue_Glow_948d1aa3_fb41_485b_9d5e_d4fd0e631920" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="BlueGlowO" showFeatureCount="0" checked="Qt::Checked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" layerid="Blue_GlowO_2315c6a5_a487_49bb_a097_783d26a1a76f" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="BlueV2g" showFeatureCount="0" checked="Qt::Checked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" layerid="Blue_V2g__7ceac97d_9837_4ee1_b175_05d44bbd7068" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="MODISTerra" showFeatureCount="0" checked="Qt::Checked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" layerid="_True_Color__MODIS__Terra_2_e11e9a97_efd5_49d0_afcb_2e702cc3bb82" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <main-annotation-layer type="annotation" refreshOnNotifyMessage="" autoRefreshTime="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0">
+    <id>Annotations_3f03310c_0515_46af_992f_48700a132a7b</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername></layername>
+    <srs>
+      <spatialrefsys>
+        <wkt></wkt>
+        <proj4></proj4>
+        <srsid>0</srsid>
+        <srid>0</srid>
+        <authid></authid>
+        <description></description>
+        <projectionacronym></projectionacronym>
+        <ellipsoidacronym></ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <layerOpacity>1</layerOpacity>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer minScale="1e+8" maxScale="0" type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-20037508.34278900176286697</xmin>
+        <ymin>-20037508.34278900176286697</ymin>
+        <xmax>20037508.34278900176286697</xmax>
+        <ymax>20037508.34278900176286697</ymax>
+      </extent>
+      <id>Blue_GlowG_78f3b1fe_d7e0_49b2_9dbf_54c398c431bd</id>
+      <datasource>IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DcmV0dXJuIFsKICBCMjAqQjA5LyhCMTIrMC41KSAgKyBNYXRoLm1heCgwLCBCMjAgLSAwLjUpKigoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogNS4wKSkgLAogIEIwOSpCMTIgKiAwLjUgKyBNYXRoLm1heCgwLCBCMDkgLSAzLjUpKigoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMy4wKSkgLAogICgoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMy4wKSkgLAogIApdOw%3D%3D%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BlueGlowG</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <temporal mode="0" fetchMode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="35" contrast="-20"/>
+        <huesaturation saturation="25" colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>9</blendMode>
+    </maplayer>
+    <maplayer minScale="1e+8" maxScale="0" type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-20037508.34278900176286697</xmin>
+        <ymin>-20037508.34278900176286697</ymin>
+        <xmax>20037508.34278900176286697</xmax>
+        <ymax>20037508.34278900176286697</ymax>
+      </extent>
+      <id>Blue_GlowO_2315c6a5_a487_49bb_a097_783d26a1a76f</id>
+      <datasource>IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DcmV0dXJuIFsKICAoQjIwKihCMDkvMi4wKS8oQjEyKzAuNSkgKiAyLjEgKyBNYXRoLm1heCgwLCBCMjAgLSAwLjUpKihCMjAqQjA5LyhCMTIrMC41KSAvMS4xICsgTWF0aC5tYXgoMCwgQjA1KkIwMSpCMDMgLSAzLjUpKigoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMy4wKSkpKSAsCiAgKEIwOSpCMTIgKiAwLjYgKyBNYXRoLm1heCgwLCBCMDEgLSAzLjUpKigoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMy4wKSkpICwKICAoQjAzKkIwNC9CMDEpLyhCMDMqQjAyL0IwNCkqKChCMTAvMi4wLUIxNC8yLjApKkIwMysoQjA5LzIuMC1CMTkvMi4wKSpCMDMrKChCMDgtQjE4KS8yLjApKkIwMysoQjA3LzIuMC1CMTYvMi4wKSpCMDMrKEIwNi8yLjAtQjE1LzIuMCkrKEIwNS8yLjAtQjE0LzIuMCkrKEIwNC8yLjAtQjEyLzIuMCkpICogMi4wICsgTWF0aC5tYXgoMCwgQjAxIC0gMy41KSooQjAyKkIwMypCMDcqQjE2KkIwMSooQjEwLUIyMCkqKEIwMi1CMTcqMy4wKSAqIDIuMCArIE1hdGgubWF4KDAsIEIwMSAtIDEuNSkrQjAzKigoQjAyKkIwOSoxLjIpLSggQjA3KihCMjAvQjA1KSAqKEIwMypCMDQvMy4wKSAqQjA3LUIwMyooQjAxL0IyMCkgKiAwLjEgKyAoQjIxKkIwMSkgKihCMTkqQjAxKSkqKEIxMiooQjIwK0IwOStCMDEpICogMC41ICsgTWF0aC5tYXgoMCwgQjEyIC0gMy41KSAgKiAwLjEgKyBNYXRoLm1heCgwLCBCMjArQjAxK0IwMiAqIDAuNSkpKihCMDcqKEIxMC1CMjApICogMS44ICsgTWF0aC5tYXgoMCwgQjAxIC0gMS41KSooKEIxMiooQjAyLzMuMC9CMjAvMy4wKSooQjA3K0IwNipCMDIpKihCMTAtQjAxLzQuMCkqQjA1KigoKChCMDIqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNypCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUqNy4wKSooQjAxKkIxOSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNS83LjApLyhCMTYqQjAyKkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1KSooQjAzKkIxOSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNSpCMDEqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC8xLjApKihCMDQqQjE5KkIwNSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTQqQjAxKkIwNSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzLzcuMCkqKEIwNSpCMTkqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzLzEuMCkqKChCMDQqQjIwLzQuNSkqKEIwMypCMjAvNC41KSooQjAxKkIyMC80LjUpKihCMDIqQjIwLzQuNSkpLzEuMCooQjAzKkIwNS8xLjApKihCMDQqQjE0LzEuMCkpKigoQjIwKyhCMDEqQjAyKkIwMy8zLjApLzQuMCkqKEIwNC0oQjAzLzMuMCkvNS4wKS8oQjAxKkIwMi8xLjApKSooKChCMDcqQjA2LzUuMCkqKEIxNipCMTAvNS4wKSooQjAzKkIwNC81LjApKihCMDUqQjA4LzEuMCkpLyhCMDEqQjIwLzEuMCkrKEIwNCpCMTUvMS4wKSsoQjE4KkIxMC8xLjApKSkrKChCMDEvMS4wKS0oQjIwLzEuMCkpKygoQjAyLzEuMCktKEIxOS8xLjApKSsoKEIwMy8xLjApLShCMTgvMS4wKSkrKChCMDQvMS4wKS0oQjE3LzEuMCkpKSAqIDMuMCkpKSkpICwKICAKXTs%3D%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BlueGlowO</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <temporal mode="0" fetchMode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>9</blendMode>
+    </maplayer>
+    <maplayer minScale="1e+8" maxScale="0" type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-20037508.34278900176286697</xmin>
+        <ymin>-20037508.34278900176286697</ymin>
+        <xmax>20037508.34278900176286697</xmax>
+        <ymax>20037508.34278900176286697</ymax>
+      </extent>
+      <id>Blue_Glow_948d1aa3_fb41_485b_9d5e_d4fd0e631920</id>
+      <datasource>IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DcmV0dXJuIFsKICAoQjAxKkIwMipCMDMqKEIwMi8zLjAvQjIwLzMuMCkqKEIwNytCMDYqQjAyKSooQjEwLUIwMS80LjApKkIwNSooKCgoQjAyKkIxOSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNS83LjApLyhCMTcqQjAyKkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1KjcuMCkqKEIwMSpCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE2KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSkqKEIwMypCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvMS4wKSooQjA0KkIxOSpCMDUqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE0KkIwMSpCMDUqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMy83LjApKihCMDUqQjE5KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNSpCMDEqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMy8xLjApKigoQjA0KkIyMC80LjUpKihCMDMqQjIwLzQuNSkqKEIwMSpCMjAvNC41KSooQjAyKkIyMC80LjUpKS8xLjAqKEIwMypCMDUvMS4wKSooQjA0KkIxNC8xLjApKSooKEIyMCsoQjAxKkIwMipCMDMvMy4wKS80LjApKihCMDQtKEIwMy8zLjApLzUuMCkvKEIwMSpCMDIvMS4wKSkqKCgoQjA3KkIwNi81LjApKihCMTYqQjEwLzUuMCkqKEIwMypCMDQvNS4wKSooQjA1KkIwOC8xLjApKS8oQjAxKkIyMC8xLjApKyhCMDQqQjE1LzEuMCkrKEIxOCpCMTAvMS4wKSkpKygoQjAxLzEuMCktKEIyMC8xLjApKSsoKEIwMi8xLjApLShCMTkvMS4wKSkrKChCMDMvMS4wKS0oQjE4LzEuMCkpKygoQjA0LzEuMCktKEIxNy8xLjApKSkgKiAxLjApICwKICAoQjEyKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogMS4wICkgLAogIChCMjAqQjAxKihCMDIvMy4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikqKEIxMC1CMDEvNC4wKSpCMDUqKCgoKEIwMipCMTkqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUvNy4wKS8oQjE3KkIwMipCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0KkIxNSo3LjApKihCMDEqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQqQjE1LzcuMCkvKEIxNipCMDIqQjA1KkIwNCpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNCpCMTUpKihCMDMqQjE5KkIwNSpCMDQqQjA2KkIwNypCMDgqQjA5KkIxMCpCMTEqQjEyKkIxMypCMTQvNy4wKS8oQjE1KkIwMSpCMDUqQjA0KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzEuMCkqKEIwNCpCMTkqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMqQjE0LzcuMCkvKEIxNCpCMDEqQjA1KkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvNy4wKSooQjA1KkIxOSpCMDYqQjA3KkIwOCpCMDkqQjEwKkIxMSpCMTIqQjEzKkIxNC83LjApLyhCMTUqQjAxKkIwNipCMDcqQjA4KkIwOSpCMTAqQjExKkIxMipCMTMvMS4wKSooKEIwNCpCMjAvNC41KSooQjAzKkIyMC80LjUpKihCMDEqQjIwLzQuNSkqKEIwMipCMjAvNC41KSkvMS4wKihCMDMqQjA1LzEuMCkqKEIwNCpCMTQvMS4wKSkqKChCMjArKEIwMSpCMDIqQjAzLzMuMCkvNC4wKSooQjA0LShCMDMvMy4wKS81LjApLyhCMDEqQjAyLzEuMCkpKigoKEIwNypCMDYvNS4wKSooQjE2KkIxMC81LjApKihCMDMqQjA0LzUuMCkqKEIwNSpCMDgvMS4wKSkvKEIwMSpCMjAvMS4wKSsoQjA0KkIxNS8xLjApKyhCMTgqQjEwLzEuMCkpKSsoKEIwMS8xLjApLShCMjAvMS4wKSkrKChCMDIvMS4wKS0oQjE5LzEuMCkpKygoQjAzLzEuMCktKEIxOC8xLjApKSsoKEIwNC8xLjApLShCMTcvMS4wKSkpICogOC4wKSAsCiAgCl07%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BlueGlow</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <temporal mode="0" fetchMode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="65" contrast="-24"/>
+        <huesaturation saturation="0" colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>10</blendMode>
+    </maplayer>
+    <maplayer minScale="1e+8" maxScale="0" type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-20037508.34278900176286697</xmin>
+        <ymin>-20037508.34278900176286697</ymin>
+        <xmax>20037508.34278900176286697</xmax>
+        <ymax>20037508.34278900176286697</ymax>
+      </extent>
+      <id>Blue_V2g__7ceac97d_9837_4ee1_b175_05d44bbd7068</id>
+      <datasource>IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DIHJldHVybiBbCgooKChCMjAqQjEwKjMuMC9CMDUpKihCMjAqQjExL0IwMSkpKigoQjIwKkIwNCpCMDkpLyhCMjAqQjAyKkIwOCkpKSooQjAyL0IwNSkgLAooQjAyKkIwNSpCMTkgKiAxLjIpICogKEIwOSpCMTIpL0IwNyAqIDAuOSArIE1hdGgubWF4KDAsIEIwOSAtIDIuNSkgKiBCMjAqQjA5LyhCMTIqQjAxKSAqIDAuNCAqIChCMDQqQjExKSAqIChCMDEqQjA1KSAqIEIwMSpCMTIqKEIwMi8yLjAvQjIwLzMuMCkqKEIwNytCMDYqQjAyKSwKKChCMDgqQjAyKS8oQjEwKkIwNSkpKigoQjA5KkIwMykvKEIxOStCMDQpKSooKEIxMCpCMDIvKEIyMCtCMDUpKSooQjEwKkIwMy8oQjE5K0IwNCkpICoxLjIpICogQjEwLyhCMjArQjA5KSAqIDEuOSArIE1hdGgubWF4KDAsICgoQjAyKkIwMypCMDEvKEIyMCtCMjEvNS4wKSkqKEIxOC9CMDQpKihCMTAvQjAxKSooQjA5L0IwMikqKEIwOC9CMDMpKSAtIDMuNSkgLAoKXTs%3D%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BlueV2g</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <temporal mode="0" fetchMode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>9</blendMode>
+    </maplayer>
+    <maplayer minScale="1e+8" maxScale="0" type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-20037508.34278900176286697</xmin>
+        <ymin>-20037508.34278900176286697</ymin>
+        <xmax>20037508.34278900176286697</xmax>
+        <ymax>20037508.34278900176286697</ymax>
+      </extent>
+      <id>Blue_V2o__fc6496dd_f49d_4745_ade8_e7fdbb006464</id>
+      <datasource>IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpg&amp;layers=1_TRUE_COLOR&amp;styles=default&amp;tileMatrixSet=PopularWebMercator256&amp;url=https://creodias.sentinel-hub.com/ogc/wmts/82f84fab-9b1c-4322-beeb-207b0f05afef?time%3Dlatest%26transparent%3Dtrue%26pane%3DactiveLayer%26maxcc%3D100%26evalscript%3DcmV0dXJuIFsKICAoKChCMDgqQjAyKS8oQjEwKkIwNSkpKigoQjA5KkIwMykvKEIxOStCMDQpKSooKEIxMCpCMDIvKEIyMCtCMDUpKSooQjEwKkIwMy8oQjE5K0IwNCkpICoxLjIpICogQjEwLyhCMjArQjA5KSAqIDEuOSArIE1hdGgubWF4KDAsICgoQjAyKkIwMypCMDEvKEIyMCtCMjEvNS4wKSkqKEIxOC9CMDQpKihCMTAvQjAxKSooQjA5L0IwMikqKEIwOC9CMDMpKSAtIDMuNSkpICAsCiAgKEIwMSpCMTIqKEIwMi8yLjAvQjIwLzMuMCkqKEIwNytCMDYqQjAyKSAqIDAuMSArIE1hdGgubWF4KDAsIEIxMCAtIDAuNSkqKEIwMipCMDUqQjE5ICogMS4yKSAqIChCMDkqQjEyKS9CMDcgKiAwLjkgKyBNYXRoLm1heCgwLCBCMDkgLSAyLjUpICogQjIwKkIwOS8oQjEyKkIwMSkgKiAwLjQgKiAoQjA0KkIxMSkgKiAoQjAxKkIwNSkgKiBCMDEqQjEyKihCMDIvMi4wL0IyMC8zLjApKihCMDcrQjA2KkIwMikpLAogICgoKEIyMCpCMDMpKihCMDMvQjE3KSooQjE2L0IwMykqKEIwMy9CMTUpKihCMTQvQjAzKSooQjEzL0IwMy8yLjApKihCMTIqQjAzL0IwMSkqKEIwMy9CMTkpKihCMDMqQjA1L0IxNykgKyBNYXRoLm1heCgwLCAoQjAxKkIwMipCMDMvKEIyMCtCMjEvNS4wKSooQjA0L0IxOCkpIC0gMC41KSkqKCgoQjIwKkIxMCozLjAvQjA1KSooQjIwKkIxMS9CMDEpKSooKEIyMCpCMDQqQjA5KS8oQjIwKkIwMipCMDgpKSkqKEIwMi9CMDUpKSAgLAogIAogIAogIApdOw%3D%3D%26evalsource%3DS3%26%26evalscriptoverrides%3D%26quality%3D100%26showlogo%3D0%26REQUEST%3DGetCapabilities%26service%3DWMTS</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BlueV2o</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <temporal mode="0" fetchMode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>1</blendMode>
+    </maplayer>
+    <maplayer minScale="1e+8" maxScale="0" type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-180</xmin>
+        <ymin>-90</ymin>
+        <xmax>180</xmax>
+        <ymax>90</ymax>
+      </extent>
+      <id>_True_Color__MODIS__Terra_2_e11e9a97_efd5_49d0_afcb_2e702cc3bb82</id>
+      <datasource>IgnoreGetFeatureInfoUrl=1&amp;IgnoreGetMapUrl=1&amp;allowTemporalUpdates=false&amp;contextualWMSLegend=0&amp;crs=EPSG:4326&amp;dpiMode=7&amp;enableTime=true&amp;featureCount=10&amp;format=image/jpeg&amp;layers=MODIS_Aqua_CorrectedReflectance_TrueColor&amp;styles&amp;temporalSource=provider&amp;timeDimensionExtent=2000-02-24/2024-12-20/P1D&amp;type=wms&amp;url=https://gibs-c.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?TIME%3D2024-12-06%26layer%3DMODIS_Aqua_CorrectedReflectance_TrueColor%26style%3Ddefault</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>MODISTerra</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" dimensions="2" miny="0" maxy="0" maxz="0" minx="0" minz="0" crs=""/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <temporal mode="1" fetchMode="1" enabled="1">
+        <fixedRange>
+          <start>2000-02-24T00:00:00Z</start>
+          <end>2021-08-11T00:00:00Z</end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" zoomedInResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeBlue="128" grayscaleMode="0" colorizeGreen="128" colorizeStrength="100" colorizeRed="255" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="Blue_V2g__7ceac97d_9837_4ee1_b175_05d44bbd7068"/>
+    <layer id="Blue_V2o__fc6496dd_f49d_4745_ade8_e7fdbb006464"/>
+    <layer id="Blue_Glow_948d1aa3_fb41_485b_9d5e_d4fd0e631920"/>
+    <layer id="Blue_GlowG_78f3b1fe_d7e0_49b2_9dbf_54c398c431bd"/>
+    <layer id="Blue_GlowO_2315c6a5_a487_49bb_a097_783d26a1a76f"/>
+    <layer id="_True_Color__MODIS__Terra_2_e11e9a97_efd5_49d0_afcb_2e702cc3bb82"/>
+  </layerorder>
+  <properties>
+    <DefaultStyles>
+      <ColorRamp type="QString"></ColorRamp>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <Opacity type="double">1</Opacity>
+      <RandomColors type="bool">true</RandomColors>
+    </DefaultStyles>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">2</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">0</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WCSLayers type="QStringList"/>
+    <WCSUrl type="QString"></WCSUrl>
+    <WFSLayers type="QStringList"/>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSDefaultMapUnitsPerMm type="double">8.983152841195213e-9</WMSDefaultMapUnitsPerMm>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSTileBuffer type="int">0</WMSTileBuffer>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <qfieldsync>
+      <baseMapMupp type="double">10</baseMapMupp>
+      <baseMapTheme type="QString"></baseMapTheme>
+      <baseMapTileSize type="int">1024</baseMapTileSize>
+      <baseMapType type="QString">singleLayer</baseMapType>
+      <createBaseMap type="int">0</createBaseMap>
+      <offlineCopyOnlyAoi type="int">0</offlineCopyOnlyAoi>
+    </qfieldsync>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option name="properties"/>
+      <Option type="QString" name="type" value="collection"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>karim</author>
+    <creation>2021-06-09T20:58:10</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+    <DefaultViewExtent xmax="128.6239292139276813" xmin="125.48893035838210608" ymax="10.58439480257853837" ymin="8.07791941138900249">
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectTimeSettings frameRate="1" timeStepUnit="h" timeStep="1" cumulativeTemporalRange="0"/>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option type="QChar" name="decimal_separator" value=""/>
+        <Option type="int" name="decimals" value="6"/>
+        <Option type="int" name="direction_format" value="0"/>
+        <Option type="int" name="rounding_type" value="0"/>
+        <Option type="bool" name="show_plus" value="false"/>
+        <Option type="bool" name="show_thousand_separator" value="true"/>
+        <Option type="bool" name="show_trailing_zeros" value="false"/>
+        <Option type="QChar" name="thousand_separator" value=""/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>
